@@ -4,9 +4,9 @@ import { DataSource } from 'typeorm';
 import { Growdever } from '../entities/growdever.entity';
 import { Address } from '../entities/address.entity';
 import { Assessment } from '../entities/assessment.entity';
-import { CreateTableGrowdever1684285757517 } from '../migrations/1684285757517-CreateTableGrowdever';
-import { CreateTableAssessment1684285837607 } from '../migrations/1684285837607-CreateTableAssessment';
-import { CreateTableAddress1684285855729 } from '../migrations/1684285855729-CreateTableAddress';
+import { CreateTableAddress1684285757517 } from '../migrations/1684285757517-CreateTableAddress';
+import { CreateTableAssessment1684285855729 } from '../migrations/1684285855729-CreateTableAssessment';
+import { CreateTableGrowdever1684285837607 } from '../migrations/1684285837607-CreateTableGrowdever';
 import config from './ormconfig';
 
 // dotenv.config();
